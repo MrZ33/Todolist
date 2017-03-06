@@ -27,48 +27,67 @@ header
 
 section
 {
-    margin-top: 6em;
+    margin-top: 10em;
 }
 
-section > h1
+section  h2
 {
+    font-family: 'Quicksand-Light';
     text-align: center;
     letter-spacing: 10px;
     font-size: 4em;
 }
 
-h2
+h3
 {
+    font-family: 'Quicksand-Light';
+    font-size: 2em;
+    letter-spacing: 10px;
     text-align: center;
 }
 
-h3
+h4
 {
+    font-family: 'Quicksand-Light';
     text-align: center;
     width: 80%;
+    font-size: 1.6em;
+}
+
+article.check  h4
+{
+  color: rgb(100, 255, 100);
+}
+
+article.todo  h4
+{
+  color: rgb(255, 50, 50);
 }
 
 ul
 {
-    width: 80%;
-    padding-left: 10em;
+    width: auto;
     color: white;
+    font-size: 1.3em;
 }
 
-subsubsubsection.todo > ul
+article.check  ul
 {
-    padding-left: 12em;
+  text-decoration:line-through;
 }
 
-subsection
+article.todo  ul
 {
-    display:flex;
+    width: auto;
 }
-
 
 .todo, .check
 {
-    width:100%;
+    display: inline-block;
+    width: auto;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-left: 17%;
 }
 
 hr
@@ -76,13 +95,30 @@ hr
     width: 50%;
 }
 
+footer {
+  height: 400px;
+  background-color: #505060;
+}
 
+p {
+  padding-top: 100px;
+  width: 60%;
+  text-align: right;
+  margin-left: 20px;
+  color: white;
+  font-size: 20pt;
+}
 
+img {
+  float: right;
+  margin-top: 100px;
+  margin-right: 200px;
+}
 
 
 /*color: #2DFDB9 ;*/
 /*
-h1{
+h1{s
   font-family: 'Quicksand-Regular' ,sans-serif;
   font-size: 2em;
   text-align: left;
@@ -149,4 +185,3 @@ h3 {
 }
 
 */
-
